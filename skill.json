@@ -1,0 +1,203 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "en-CA": {
+          "summary": "Leaving the house and need to quickly know how many bikes are at your closest station? Ask Bike Finder!",
+          "examplePhrases": [
+            "Alexa Launch Bike Finder",
+            "Alexa, ask bike finder to reset my account"
+          ],
+          "keywords": [
+            "Bicing",
+            "barcelona",
+            "smou",
+            "bike",
+            "ebike",
+            "locator"
+          ],
+          "name": "Bike Finder for Barcelona",
+          "description": "Bike is here to get you a quick update before you head out, should you go for a bike or head straight for the metro? It works with Bicing to bring you the status of your closest stations, in a quick summary.",
+          "smallIconUri": "file://assets/images/en-CA_smallIconUri.png",
+          "largeIconUri": "file://assets/images/en-CA_largeIconUri.png"
+        },
+        "en-US": {
+          "summary": "Leaving the house and need to quickly know how many bikes are at your closest station? Ask Bike Finder!",
+          "examplePhrases": [
+            "Alexa Launch Bike Finder",
+            "Alexa, ask bike finder to reset my account"
+          ],
+          "keywords": [
+            "Bicing",
+            "barcelona",
+            "smou",
+            "bike",
+            "ebike",
+            "locator"
+          ],
+          "name": "Bike Finder for Barcelona",
+          "description": "Bike is here to get you a quick update before you head out, should you go for a bike or head straight for the metro? It works with Bicing to bring you the status of your closest stations, in a quick summary.",
+          "smallIconUri": "file://assets/images/en-US_smallIconUri.png",
+          "largeIconUri": "file://assets/images/en-US_largeIconUri.png"
+        },
+        "en-IN": {
+          "summary": "Leaving the house and need to quickly know how many bikes are at your closest station? Ask Bike Finder!",
+          "examplePhrases": [
+            "Alexa Launch Bike Finder",
+            "Alexa, ask bike finder to reset my account"
+          ],
+          "keywords": [
+            "Bicing",
+            "barcelona",
+            "smou",
+            "bike",
+            "ebike",
+            "locator"
+          ],
+          "name": "Bike Finder for Barcelona",
+          "description": "Bike is here to get you a quick update before you head out, should you go for a bike or head straight for the metro? It works with Bicing to bring you the status of your closest stations, in a quick summary.",
+          "smallIconUri": "file://assets/images/en-IN_smallIconUri.png",
+          "largeIconUri": "file://assets/images/en-IN_largeIconUri.png"
+        },
+        "es-ES": {
+          "summary": "Quieres el estado de las estanciones de bicing mas cercanas? Aqui las tienes!",
+          "examplePhrases": [
+            "Alexa, Lanza barcelona bicis",
+            "Alexa, pidele a barcelona bicis que restablezca mi cuenta"
+          ],
+          "keywords": [
+            "Bicing",
+            "barcelona",
+            "smou",
+            "bicis",
+            "tmb"
+          ],
+          "name": "Buscador de bicis para Barcelona",
+          "description": "Esta skill esta hecho para que puedes saber instantáneamente el estado de tu estacion de Bicing mas cercana.",
+          "smallIconUri": "file://assets/images/es-ES_smallIconUri.png",
+          "largeIconUri": "file://assets/images/es-ES_largeIconUri.png"
+        },
+        "en-AU": {
+          "summary": "Leaving the house and need to quickly know how many bikes are at your closest station? Ask Bike Finder!",
+          "examplePhrases": [
+            "Alexa Launch Bike Finder",
+            "Alexa, ask bike finder to reset my account"
+          ],
+          "keywords": [
+            "Bicing",
+            "barcelona",
+            "smou",
+            "bike",
+            "ebike",
+            "locator"
+          ],
+          "name": "Bike Finder for Barcelona",
+          "description": "Bike is here to get you a quick update before you head out, should you go for a bike or head straight for the metro? It works with Bicing to bring you the status of your closest stations, in a quick summary.",
+          "smallIconUri": "file://assets/images/en-AU_smallIconUri.png",
+          "largeIconUri": "file://assets/images/en-AU_largeIconUri.png"
+        },
+        "en-GB": {
+          "summary": "Leaving the house and need to quickly know how many bikes are at your closest station? Ask Bike Finder!",
+          "examplePhrases": [
+            "Alexa Launch Bike Finder",
+            "Alexa, ask bike finder to reset my account"
+          ],
+          "keywords": [
+            "Bicing",
+            "barcelona",
+            "smou",
+            "bike",
+            "ebike",
+            "locator"
+          ],
+          "name": "Bike Finder for Barcelona",
+          "description": "Bike is here to get you a quick update before you head out, should you go for a bike or head straight for the metro? It works with Bicing to bring you the status of your closest stations, in a quick summary.",
+          "smallIconUri": "file://assets/images/en-GB_smallIconUri.png",
+          "largeIconUri": "file://assets/images/en-GB_largeIconUri.png"
+        }
+      },
+      "automaticDistribution": {
+        "isActive": false
+      },
+      "isAvailableWorldwide": false,
+      "testingInstructions": "The launch intent is the main function of this application. It is quite specifically for users in Barcelona. There is a second intent, ResetAccount, which exists for if the device location is incorrect when the user first starts the app. They can then reset and it will get their location a second time.",
+      "category": "PUBLIC_TRANSPORTATION",
+      "distributionMode": "PUBLIC",
+      "automaticClonedLocale": {
+        "locales": [
+          {
+            "source": "en-GB"
+          }
+        ]
+      },
+      "distributionCountries": [
+        "ES",
+        "GB"
+      ]
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "arn:aws:lambda:us-east-1:731440606578:function:d0c65124-a7c7-4f56-a39c-b648ddc8523f:Release_1"
+        },
+        "interfaces": [],
+        "regions": {
+          "EU": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:eu-west-1:731440606578:function:d0c65124-a7c7-4f56-a39c-b648ddc8523f:Release_1"
+            }
+          },
+          "NA": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-east-1:731440606578:function:d0c65124-a7c7-4f56-a39c-b648ddc8523f:Release_1"
+            }
+          },
+          "FE": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-west-2:731440606578:function:d0c65124-a7c7-4f56-a39c-b648ddc8523f:Release_1"
+            }
+          }
+        }
+      }
+    },
+    "manifestVersion": "1.0",
+    "permissions": [
+      {
+        "name": "alexa::devices:all:address:full:read"
+      }
+    ],
+    "privacyAndCompliance": {
+      "allowsPurchases": false,
+      "locales": {
+        "en-CA": {
+          "termsOfUseUrl": "http://peterkentish.com/career/privacy-policy/",
+          "privacyPolicyUrl": "http://peterkentish.com/career/privacy-policy/"
+        },
+        "en-US": {
+          "termsOfUseUrl": "http://peterkentish.com/career/privacy-policy/",
+          "privacyPolicyUrl": "http://peterkentish.com/career/privacy-policy/"
+        },
+        "en-IN": {
+          "termsOfUseUrl": "http://peterkentish.com/career/privacy-policy/",
+          "privacyPolicyUrl": "http://peterkentish.com/career/privacy-policy/"
+        },
+        "en-AU": {
+          "termsOfUseUrl": "http://peterkentish.com/career/privacy-policy/",
+          "privacyPolicyUrl": "http://peterkentish.com/career/privacy-policy/"
+        },
+        "es-ES": {
+          "termsOfUseUrl": "http://peterkentish.com/career/privacy-policy/",
+          "privacyPolicyUrl": "http://peterkentish.com/career/privacy-policy/"
+        },
+        "en-GB": {
+          "termsOfUseUrl": "http://peterkentish.com/career/privacy-policy/",
+          "privacyPolicyUrl": "http://peterkentish.com/career/privacy-policy/"
+        }
+      },
+      "containsAds": false,
+      "isExportCompliant": true,
+      "isChildDirected": false,
+      "usesPersonalInfo": false
+    }
+  }
+}

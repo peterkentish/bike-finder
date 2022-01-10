@@ -1,0 +1,43 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "bike finder",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "name": "ResetAccountIntent",
+          "slots": [],
+          "samples": [
+            "that was wrong",
+            "please update",
+            "thats not right",
+            "reset my account",
+            "delete my account",
+            "forget my account"
+          ]
+        }
+      ],
+      "types": []
+    }
+  },
+  "version": "7"
+}

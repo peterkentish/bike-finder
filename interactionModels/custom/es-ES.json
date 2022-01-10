@@ -1,0 +1,42 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "barcelona bicis",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "name": "ResetAccountIntent",
+          "slots": [],
+          "samples": [
+            "eso no era correcto",
+            "eso esta mal",
+            "hacerme un reset",
+            "restablezca mi cuenta",
+            "restablezca "
+          ]
+        }
+      ],
+      "types": []
+    }
+  },
+  "version": "3"
+}
